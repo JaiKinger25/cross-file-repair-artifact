@@ -1,0 +1,21 @@
+analysis,status,where_reported
+H1: R14 higher after marked than matched unmarked commits,pre-specified (primary),Section 5.1; Table 1
+Matching rules (repository; 30 days; file-count bin; tests-touched flag; up to five controls; seed 20261020),pre-specified,Section 3.2
+Primary estimator: set-weighted matched difference with percentile cluster bootstrap (5000 resamples),pre-specified,Section 3.3; Table 1
+Secondary outcomes F14 REV30 RW14 W,pre-specified (exploratory),Table 1; Online Appendix Table A3
+S1 same-author controls within 60 days,pre-specified sensitivity,Table 1
+S2 exclude same-author follow-ups within 24 h,pre-specified sensitivity,Table 1
+S3 strict repair pattern,pre-specified sensitivity,Table 1
+S4 follow-ups touching at most 20 files,pre-specified sensitivity,Section 5.1 text
+S5 7- and 30-day windows,pre-specified sensitivity,Table 1
+S6 results by tool family,pre-specified sensitivity,Section 5.1 text; Online Appendix Table A4
+S7 drop BerriAI/litellm,pre-specified sensitivity,Table 1
+E1 file-activity matching,post hoc,Online Appendix A3
+Pre-period placebo,post hoc,Table 1
+Difference-in-differences,post hoc,Table 1; Section 6
+Alternative inference (BCa; CR1; wild; HKSJ; prediction interval),post hoc,Table 2
+Meta-regression and repository type,post hoc,Section 5.2; Fig. 1
+Fragility indices,post hoc,Section 5.2
+Bias from differential label noise (Eq. 3) and tipping point,post hoc,Section 3.4
+Simulation study,post hoc,Section 6; Table 3; Fig. 2
+Probabilistic bias analysis and E-value,post hoc,Section 7
